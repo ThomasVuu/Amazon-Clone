@@ -14,12 +14,14 @@
   margin-top: 10px;
   border-color: #a88734 #0c7e31 #846a29;
   color: #111;
+  cursor: pointer;
 }
 
 .checkoutProduct__image {
   object-fit: contain;
   width: 180px;
   height: 180px;
+  flex-shrink: 0;
 }
 
 .checkoutProduct__rating {
